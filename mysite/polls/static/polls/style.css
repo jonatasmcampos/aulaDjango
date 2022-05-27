@@ -1,0 +1,25 @@
+body {
+    background: white url("https://media3.giphy.com/media/3o6vXTpomeZEyxufGU/giphy.gif?cid=790b76118b096771eeea9fa4ac2a372905640bb21dd30775&rid=giphy.gif&ct=g") no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+ul{
+    list-style: upper-roman;
+}
+
+li a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+li:hover a{
+    position: relative;
+    left: 10px;
+    color: black;
+    font-size: 25px;
+}
